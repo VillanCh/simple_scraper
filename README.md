@@ -34,6 +34,7 @@ class ScraperWorkerBase:
 
 使用实例：
 一：
+<code>
 #encoding:utf-8
 from scraper import *
 import Queue
@@ -51,8 +52,9 @@ while True:
         print z.get(timeout=4)
     except:
         pass
-    
+</code>
 二：
+<code>
 #encoding:utf-8
 from scraper import *
 import Queue
@@ -83,5 +85,5 @@ while True:
     except:
         pass
     
-
+</code>
 	
